@@ -1,0 +1,31 @@
+.table__container {
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+
+.table {
+  border: 1px solid lightgray;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto;
+  min-width: 650px;
+}
+
+.table__body-row:nth-child(odd) {
+  background: #ebecf0;
+}
+
+.table__header-row-item:hover,
+.table__body-row:hover {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.table__header-row-item,
+.table__body-row-item {
+  text-align: start;
+  padding: 10px;
+}
+
+.table__user-not-found {
+  text-align: center;
+}
